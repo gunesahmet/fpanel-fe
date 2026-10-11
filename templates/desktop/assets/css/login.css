@@ -1,0 +1,124 @@
+.login-container {
+    background: #33414e;
+    float: left;
+    min-height: 100%;
+    width: 100%;
+    z-index: 1001;
+    position: absolute;
+}
+.login-container .login-box {
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 400px;
+}
+.login-container .login-box .login-logo {
+    /*background: rgba(0, 0, 0, 0) url("../img/logo.png") no-repeat scroll center top;*/
+    float: left;
+    height: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.login-container .login-box .login-body {
+    background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+    border-radius: 5px;
+    float: left;
+    padding: 20px;
+    width: 100%;
+}
+.login-container .login-box .login-body .login-title {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 15px;
+}
+.login-container .login-box .login-body .form-control {
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+    border: 0 none;
+    color: #ccc;
+    height: auto;
+    line-height: 20px;
+    /*padding: 10px 15px;*/
+}
+.login-container .login-box .login-body .btn-link {
+    border: 0 none;
+    color: #fff;
+}
+.login-container .login-box .login-body .login-or {
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+    margin: 25px auto;
+    position: relative;
+    text-align: center;
+    width: 40px;
+}
+.login-container .login-box .login-body .login-or::before {
+    border-bottom: 10px solid rgba(0, 0, 0, 0.2);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: -10px;
+    width: 0;
+}
+.login-container .login-box .login-body .login-or::after {
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 10px solid rgba(0, 0, 0, 0.2);
+    bottom: -10px;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+}
+.login-container .login-box .login-body .login-subtitle {
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 5px 0;
+}
+.login-container .login-box .login-body .login-subtitle a {
+    color: #3fbae4;
+}
+.login-container .login-box .login-footer {
+    color: #fff;
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+.login-container .login-box .login-footer a {
+    color: #fff;
+}
+
+.login-container.lightmode .login-box .login-body {
+    background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+}
+.login-container.lightmode .login-box .login-body .form-control {
+    background: rgba(255, 255, 255, 0.4) none repeat scroll 0 0;
+    color: #333;
+}
+.login-container.lightmode .login-box .login-subtitle a {
+    color: #33414e;
+}
+.login-box .dropdown-menu > li > a:hover  {
+    text-decoration: none;
+    color: #ccc;
+    background-color: #33414e;
+}
+
+.login-body .dropdown-menu {
+    padding: 0;
+}
+.login-body .dropdown-menu > li > a {
+    padding: 5px 10px;
+}
+
+.login-container .form-error {
+    color: #ffaaaa;
+}

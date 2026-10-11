@@ -1,0 +1,551 @@
+/*!* iCheck plugin Square skin, green*/
+/*----------------------------------- *!*/
+/*.icheckbox_square-green,*/
+/*.iradio_square-green {*/
+/*    display: inline-block;*/
+/*    *display: inline;*/
+/*    vertical-align: middle;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    width: 22px;*/
+/*    height: 22px;*/
+/*    background: url(../images/green.png) no-repeat;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.icheckbox_square-green {*/
+/*    background-position: 0 0;*/
+/*}*/
+
+/*.icheckbox_square-green.hover {*/
+/*    background-position: -24px 0;*/
+/*}*/
+
+/*.icheckbox_square-green.checked {*/
+/*    background-position: -48px 0;*/
+/*}*/
+
+/*.icheckbox_square-green.disabled {*/
+/*    background-position: -72px 0;*/
+/*    cursor: default;*/
+/*}*/
+
+/*.icheckbox_square-green.checked.disabled {*/
+/*    background-position: -96px 0;*/
+/*}*/
+
+/*.iradio_square-green {*/
+/*    background-position: -120px 0;*/
+/*}*/
+
+/*.iradio_square-green.hover {*/
+/*    background-position: -144px 0;*/
+/*}*/
+
+/*.iradio_square-green.checked {*/
+/*    background-position: -168px 0;*/
+/*}*/
+
+/*.iradio_square-green.disabled {*/
+/*    background-position: -192px 0;*/
+/*    cursor: default;*/
+/*}*/
+
+/*.iradio_square-green.checked.disabled {*/
+/*    background-position: -216px 0;*/
+/*}*/
+
+/*!* HiDPI support *!*/
+/*@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {*/
+/*    .icheckbox_square-green,*/
+/*    .iradio_square-green {*/
+/*        background-image: url(../images/green@2x.png);*/
+/*        -webkit-background-size: 240px 24px;*/
+/*        background-size: 240px 24px;*/
+/*    }*/
+/*}*/
+
+/*.icheck-list {*/
+/*    list-style: outside none none;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    width: 100%*/
+/*}*/
+
+/*.icheck-list > li {*/
+/*    display: block;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*.icheck-list > li:last-child {*/
+/*    margin-bottom: 0;*/
+/*}*/
+
+/*.icheck-skins {*/
+/*    display: block;*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*.icheck-skins::before, .icheck-skins::after {*/
+/*    content: " ";*/
+/*    display: table;*/
+/*}*/
+
+/*.icheck-skins::after {*/
+/*    clear: both;*/
+/*}*/
+
+/*.icheck-skins a {*/
+/*    background: #333 none repeat scroll 0 0;*/
+/*    border: 1px solid transparent;*/
+/*    display: inline-block;*/
+/*    height: 20px;*/
+/*    margin-right: 5px;*/
+/*    transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 0;*/
+/*    width: 20px;*/
+/*}*/
+
+/*.icheck-skins a[data-color-class="red"] {*/
+/*    background-color: #d54e21;*/
+/*}*/
+
+/*.icheck-skins a[data-color-class="grey"] {*/
+/*    background-color: #73716e;*/
+/*}*/
+
+/*.icheck-skins a.current {*/
+/*    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);*/
+/*    transform: scale(1.15);*/
+/*}*/
+
+/*.icheckbox_minimal-grey, .iradio_minimal-grey {*/
+/*    background: rgba(0, 0, 0, 0) url(../images/grey.png) no-repeat scroll 0 0;*/
+/*    border: medium none;*/
+/*    cursor: pointer;*/
+/*    display: inline-block;*/
+/*    height: 18px;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    vertical-align: middle;*/
+/*    width: 18px;*/
+/*}*/
+
+/*.icheckbox_minimal-grey {*/
+/*    background-position: 0 0;*/
+/*}*/
+
+/*.icheckbox_minimal-grey.hover {*/
+/*    background-position: -20px 0;*/
+/*}*/
+
+/*.icheckbox_minimal-grey.checked {*/
+/*    background-position: -40px 0;*/
+/*}*/
+
+/*.icheckbox_minimal-grey.disabled {*/
+/*    background-position: -60px 0;*/
+/*    cursor: default;*/
+/*}*/
+
+/*.icheckbox_minimal-grey.checked.disabled {*/
+/*    background-position: -80px 0;*/
+/*}*/
+
+/*.iradio_minimal-grey {*/
+/*    background-position: -100px 0;*/
+/*}*/
+
+/*.iradio_minimal-grey.hover {*/
+/*    background-position: -120px 0;*/
+/*}*/
+
+/*.iradio_minimal-grey.checked {*/
+/*    background-position: -140px 0;*/
+/*}*/
+
+/*.iradio_minimal-grey.disabled {*/
+/*    background-position: -160px 0;*/
+/*    cursor: default;*/
+/*}*/
+
+/*.iradio_minimal-grey.checked.disabled {*/
+/*    background-position: -180px 0;*/
+/*}*/
+
+/*@media not all, not all, not all, not all {*/
+/*    .icheckbox_minimal-grey, .iradio_minimal-grey {*/
+/*        background-image: url(../images/grey@2x.png);*/
+/*        background-size: 200px 20px;*/
+/*    }*/
+/*}*/
+
+/*.icheckbox_square-green, .iradio_square-green {*/
+/*    display: inline-block;*/
+/*    *display: inline;*/
+/*    vertical-align: middle;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    width: 22px;*/
+/*    height: 22px;*/
+/*    background: url(../images/green.png) no-repeat;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.icheckbox_square-green {*/
+/*    background-position: 0 0;*/
+/*}*/
+
+/*.icheckbox_square-green.hover {*/
+/*    background-position: -24px 0;*/
+/*}*/
+
+/*.icheckbox_square-green.checked {*/
+/*    background-position: -48px 0;*/
+/*}*/
+
+/*.icheckbox_square-green.disabled {*/
+/*    background-position: -72px 0;*/
+/*    cursor: default;*/
+/*}*/
+
+/*.icheckbox_square-green.checked.disabled {*/
+/*    background-position: -96px 0;*/
+/*}*/
+
+/*.iradio_square-green {*/
+/*    background-position: -120px 0;*/
+/*}*/
+
+/*.iradio_square-green.hover {*/
+/*    background-position: -144px 0;*/
+/*}*/
+
+/*.iradio_square-green.checked {*/
+/*    background-position: -168px 0;*/
+/*}*/
+
+/*.iradio_square-green.disabled {*/
+/*    background-position: -192px 0;*/
+/*    cursor: default;*/
+/*}*/
+
+/*.iradio_square-green.checked.disabled {*/
+/*    background-position: -216px 0;*/
+/*}*/
+
+/*@media (-o-min-device-pixel-ratio: 54), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {*/
+/*    .icheckbox_square-green, .iradio_square-green {*/
+/*        background-image: url(../images/green@2x.png);*/
+/*        -webkit-background-size: 240px 24px;*/
+/*        background-size: 240px 24px;*/
+/*    }*/
+/*}*/
+
+/*.icheckbox_minimal-blue, .iradio_minimal-blue {*/
+/*    display: inline-block;*/
+/*    *display: inline;*/
+/*    padding: 0;*/
+/*    width: 18px;*/
+/*    height: 18px;*/
+/*    background: url(../images/blue.png) no-repeat;*/
+/*    border: 1px solid #c1c1c1;*/
+/*    cursor: pointer;*/
+/*    top: 2px;*/
+/*}*/
+
+/*.icheckbox_minimal-blue {*/
+/*    background-position: -1px -1px;*/
+/*}*/
+
+/*.icheckbox_minimal-blue.hover {*/
+/*    background-position: -21px -1px;*/
+/*}*/
+
+/*.icheckbox_minimal-blue.checked {*/
+/*    !*background-position: -40px 0;*!*/
+/*    background-position: -41px -1px;*/
+/*}*/
+
+/*.icheckbox_minimal-blue.disabled {*/
+/*    background-position: -60px 0;*/
+/*    cursor: default;*/
+/*}*/
+
+/*.icheckbox_minimal-blue.checked.disabled {*/
+/*    background-position: -80px 0;*/
+/*}*/
+
+/*.iradio_minimal-blue {*/
+/*    background-position: -120px 0;*/
+/*}*/
+
+/*.iradio_minimal-blue.hover {*/
+/*    background-position: -120px 0;*/
+/*}*/
+
+/*.iradio_minimal-blue.checked {*/
+/*    background-position: -140px 0;*/
+/*}*/
+
+/*.iradio_minimal-blue.disabled {*/
+/*    background-position: -160px 0;*/
+/*    cursor: default;*/
+/*}*/
+
+/*.iradio_minimal-blue.checked.disabled {*/
+/*    background-position: -180px 0;*/
+/*}*/
+
+/*@media (-o-min-device-pixel-ratio: 54), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {*/
+/*    .icheckbox_minimal-blue, .iradio_minimal-blue {*/
+/*        background-image: url(../images/blue@2x.png);*/
+/*        -webkit-background-size: 200px 20px;*/
+/*        background-size: 200px 20px;*/
+/*    }*/
+/*}*/
+
+/*.icheckbox_minimal-aero, .iradio_minimal-aero {*/
+/*    display: inline-block;*/
+/*    *display: inline;*/
+/*    vertical-align: middle;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    width: 18px;*/
+/*    height: 18px;*/
+/*    background: url(../images/aero.png) no-repeat;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.icheckbox_minimal-aero {*/
+/*    background-position: 0 0;*/
+/*}*/
+
+/*.icheckbox_minimal-aero.hover {*/
+/*    background-position: -20px 0;*/
+/*}*/
+
+/*.icheckbox_minimal-aero.checked {*/
+/*    background-position: -40px 0;*/
+/*}*/
+
+/*.icheckbox_minimal-aero.disabled {*/
+/*    background-position: -60px 0;*/
+/*    cursor: default;*/
+/*}*/
+
+/*.icheckbox_minimal-aero.checked.disabled {*/
+/*    background-position: -80px 0;*/
+/*}*/
+
+/*.iradio_minimal-aero {*/
+/*    background-position: -100px 0;*/
+/*}*/
+
+/*.iradio_minimal-aero.hover {*/
+/*    background-position: -120px 0;*/
+/*}*/
+
+/*.iradio_minimal-aero.checked {*/
+/*    background-position: -140px 0;*/
+/*}*/
+
+/*.iradio_minimal-aero.disabled {*/
+/*    background-position: -160px 0;*/
+/*    cursor: default;*/
+/*}*/
+
+/*.iradio_minimal-aero.checked.disabled {*/
+/*    background-position: -180px 0;*/
+/*}*/
+
+/*@media (-o-min-device-pixel-ratio: 54), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {*/
+/*    .icheckbox_minimal-aero, .iradio_minimal-aero {*/
+/*        background-image: url(../images/aero@2x.png);*/
+/*        -webkit-background-size: 200px 20px;*/
+/*        background-size: 200px 20px;*/
+/*    }*/
+/*}*/
+
+/*.i-checks .icheckbox_minimal-blue, .iradio_minimal-blue {*/
+/*    vertical-align: top;*/
+/*}*/
+
+/* iCheck plugin Square skin, green
+----------------------------------- */
+.icheckbox_square-green,
+.iradio_square-green {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(../images/green.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_square-green {
+    background-position: 0 0;
+}
+.icheckbox_square-green.hover {
+    background-position: -24px 0;
+}
+.icheckbox_square-green.checked {
+    background-position: -48px 0;
+}
+.icheckbox_square-green.disabled {
+    background-position: -72px 0;
+    cursor: default;
+}
+.icheckbox_square-green.checked.disabled {
+    background-position: -96px 0;
+}
+
+.iradio_square-green {
+    background-position: -120px 0;
+}
+.iradio_square-green.hover {
+    background-position: -144px 0;
+}
+.iradio_square-green.checked {
+    background-position: -168px 0;
+}
+.iradio_square-green.disabled {
+    background-position: -192px 0;
+    cursor: default;
+}
+.iradio_square-green.checked.disabled {
+    background-position: -216px 0;
+}
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
+    .icheckbox_square-green,
+    .iradio_square-green {
+        background-image: url(../images/green@2x.png);
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
+}
+
+/* iCheck plugin Minimal skin, blue
+----------------------------------- */
+.icheckbox_minimal-blue,
+.iradio_minimal-blue {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    background: url(../images/blue.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_minimal-blue {
+    background-position: 0 0;
+}
+.icheckbox_minimal-blue.hover {
+    background-position: -20px 0;
+}
+.icheckbox_minimal-blue.checked {
+    background-position: -40px 0;
+}
+.icheckbox_minimal-blue.disabled {
+    /*background-position: -60px 0;*/
+    cursor: default;
+}
+.icheckbox_minimal-blue.checked.disabled {
+    /*background-position: -80px 0;*/
+}
+
+.iradio_minimal-blue {
+    background-position: -100px 0;
+}
+.iradio_minimal-blue.hover {
+    background-position: -120px 0;
+}
+.iradio_minimal-blue.checked {
+    background-position: -140px 0;
+}
+.iradio_minimal-blue.disabled {
+    background-position: -160px 0;
+    cursor: default;
+}
+.iradio_minimal-blue.checked.disabled {
+    background-position: -180px 0;
+}
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
+    .icheckbox_minimal-blue,
+    .iradio_minimal-blue {
+        background-image: url(../images/blue@2x.png);
+        -webkit-background-size: 200px 20px;
+        background-size: 200px 20px;
+    }
+}
+
+/* iCheck plugin Minimal skin, aero
+----------------------------------- */
+.icheckbox_minimal-aero,
+.iradio_minimal-aero {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    background: url(../images/aero.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_minimal-aero {
+    background-position: 0 0;
+}
+.icheckbox_minimal-aero.hover {
+    background-position: -20px 0;
+}
+.icheckbox_minimal-aero.checked {
+    background-position: -40px 0;
+}
+.icheckbox_minimal-aero.disabled {
+    background-position: -60px 0;
+    cursor: default;
+}
+.icheckbox_minimal-aero.checked.disabled {
+    background-position: -80px 0;
+}
+
+.iradio_minimal-aero {
+    background-position: -100px 0;
+}
+.iradio_minimal-aero.hover {
+    background-position: -120px 0;
+}
+.iradio_minimal-aero.checked {
+    background-position: -140px 0;
+}
+.iradio_minimal-aero.disabled {
+    background-position: -160px 0;
+    cursor: default;
+}
+.iradio_minimal-aero.checked.disabled {
+    background-position: -180px 0;
+}
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
+    .icheckbox_minimal-aero,
+    .iradio_minimal-aero {
+        background-image: url(../images/aero@2x.png);
+        -webkit-background-size: 200px 20px;
+        background-size: 200px 20px;
+    }
+}

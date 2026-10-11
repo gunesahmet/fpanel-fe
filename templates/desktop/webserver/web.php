@@ -1,0 +1,1 @@
+<? $this->partial('webserver/'.$system_os_type.'/web');
